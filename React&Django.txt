@@ -1,0 +1,34 @@
+Helpful commands:
+1. django-admin startproject myproject
+2. python manage.py startapp myapi
+3. python -m virtualenv venv
+4. Set-ExecutionPolicy Unrestricted -Scope Process
+5. venv/scripts/active
+6. python manage.py makemigrations
+7. python manage.py migrate --run-syncdb
+8. python manage.py runserver
+9. python manage.py createsuperuser
+10. pip install django djangorestframework django-cors-headers
+11. pip install tabula-py pandas PyPDF2
+12. npx create-react-app frontend
+13. npm run start
+14. npm install axios
+
+CreteModels(models.py)->make Migrations-> registerModelinAdmin(admin.py)
+
+Createurl(url.py)->HandleView(view.py)
+
+
+
+edited and run on 29th may 2024 
+counsellor password- id/username (1,2,3,4) , password(sircrr123)
+admin password - username(admin) , password(1234)
+
+running backend process:
+cd backend/venv/scripts
+activate (then venv is activated)
+cd .. ( come to backend folder)
+run - python manage.py runserver
+password of suresh - name(sureshmrd) , password(1234)
+if want to change password name then :
+run - python manage.py createsuperuser (in backend folder)
