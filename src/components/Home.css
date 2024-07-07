@@ -1,0 +1,39 @@
+/* custom.css */
+
+/* Custom hover effect for dropdown items */
+.dropdown-item:hover {
+    background-color: #7688ef; /* Light gray background on hover */
+    color: #ffffff !important;  /* Blue text color on hover */
+    
+}
+
+/* Optional: Additional styling for active state */
+.dropdown-item:active {
+    background-color: #e9ecef; /* Slightly darker gray on active */
+    color: #0056b3; /* Blue text color on active */
+}
+
+/* custom.css */
+
+/* Custom height for the navbar */
+.navbar {
+    height: 80px; /* Adjust this value to increase the height */
+}
+
+
+.navbar-brand
+{
+  font-size: 100px;
+}
+
+/* Ensure that the content inside the navbar is centered vertically */
+.navbar-brand, .navbar-nav .nav-link, .navbar-toggler {
+    height: 80px; /* Match the navbar height */
+    line-height: 80px; /* Center the text vertically */
+    font-size: 1.25rem; 
+}
+
+/* Adjust the height and line-height for the dropdown menu items */
+.navbar-nav .dropdown-menu {
+    line-height: initial;
+}

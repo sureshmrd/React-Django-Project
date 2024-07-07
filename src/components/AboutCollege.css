@@ -1,0 +1,39 @@
+/* AboutCollege.css */
+.heading{
+    text-align: center;
+    font-weight: bold;
+}
+#paratext{
+    text-align: center;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 80%; /* Adjust the width as per your design */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center align text within the container */
+}
+.about-college-container {
+    background-color: #344955; /* f0f0f0 Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+    margin: 20px auto;
+    max-width: 1500px;
+    font-family: 'Arial', sans-serif; /* Example font family */
+}
+
+.about-college-container h2 {
+    color: #f5f3f3; /* Dark gray for headings */
+    border-bottom: 1px solid #ccc; /* Underline for headings */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.about-college-container p {
+    line-height: 1.6; /* Improved readability with slightly increased line height */
+    color: #b3afaf; /* Medium gray text color */
+}
+.about-college-container h1{
+    color: #f5f3f3;
+}

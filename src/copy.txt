@@ -1,0 +1,29 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate,Link } from 'react-router-dom';
+import { RegNoForm } from './components/RegNoForm';
+import { Display } from './components/Display';
+import LoginDropdown from './components/LoginDropdown';
+import AdminLogin from './components/AdminLogin';
+import CounsellorLogin from './components/CounsellorLogin';
+// App component
+const App = () => {
+  return (
+    <Router>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+        </ul>
+      </nav>
+      <LoginDropdown/>
+      <Routes>
+        <Route path="/" element={<Navigate to="/student" />} />
+        <Route path="/student" element={<RegNoForm />} />
+        <Route path="/admin" element={<AdminLogin/>} />
+        <Route path="/counsellor" element={<CounsellorLogin/>} />
+        <Route path="/display/:regNo" element={<Display />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
